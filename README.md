@@ -22,7 +22,7 @@ First you make a 2d plan. You mark fields witch are about to serve as a room (ye
 ![08](https://github.com/zbigniew54/Gamedo/assets/132487185/8e968619-a9a1-4d61-b2af-608c4a7601f1)
 _Wall and floor modules_
 
-Its not that easy to build a 3d level with flat floor tiles or walls. Its gets tricky when you have to handle corners (convex or concave). This software can autmatically create corners (an event columns) from "flat" walls
+Its not that easy to build a 3d level with flat floor tiles or walls. Its gets tricky when you have to handle corners (convex or concave). This software can automatically create corners (an event columns) from "flat" walls
 
 ![011a](https://github.com/zbigniew54/Gamedo/assets/132487185/2a68a5eb-2d78-4807-95a9-5c1468b8b4e5)
 _Convex corner generated automatically from wall module_
@@ -57,15 +57,12 @@ _PBR makes metallic surfaces look realsitic_
 ![42](https://github.com/zbigniew54/Gamedo/assets/132487185/5bc8c512-f16b-415b-ba46-817fd324dd3e)
 _HDR rendering with tone mapping and selective bloom_
 
-<img width="958" alt="27" src="https://github.com/zbigniew54/Gamedo/assets/132487185/83fc8421-87c7-4b53-a49d-cc6bd3f4c946">
+<img width="960" alt="004" src="https://github.com/zbigniew54/Gamedo/assets/132487185/c7235b5e-fc04-4179-9214-c66a51a503a9">
+
+_Material manager allows you to edit various parameters of shaders used to render meshes. Apart from standard PBR materials there are other available to render realistic water, glass, transparent surfaces and particles._
 
 # Future work
 Procedural flying cities :)
 
 ![31](https://github.com/zbigniew54/Gamedo/assets/132487185/a7b04b3b-9f20-4719-86b5-9862036c3a45)
 
-_Module manager. Here you can assign meshes as floor, wall, etc modules and decide whether should they apperar in room, corridor or other category fields and how frequent should each module be used._
-
-<img width="960" alt="004" src="https://github.com/zbigniew54/Gamedo/assets/132487185/c7235b5e-fc04-4179-9214-c66a51a503a9">
-
-_Material manager allows you to edit various parameters of shaders used to render meshes. Apart from standard PBR materials there are other available to render realistic water, glass, transparent surfaces and particles._
