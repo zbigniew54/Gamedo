@@ -1,13 +1,16 @@
 # Gamedo
 This is largest JavaScript project I have been working on. I started it in march 2021. It is a 3d game level editor written in JavaScript. Is uses WebGL to display 3d graphics with GPU acceleration in web browser. It is made with [THREE.js](https://threejs.org) with no other dependecies. The interface is in pure DOM (I would probably used React today:)). The server side is written in PHP and uses MySQL database.
+![002b](https://github.com/zbigniew54/Gamedo/assets/132487185/01511243-1724-4419-996b-92fd76674f98)
+
 
 ![002a](https://github.com/zbigniew54/Gamedo/assets/132487185/5aab22eb-5151-4f06-8030-68459bf85c6b)
 
 
 # Procedural 3d worlds
-Its best feature is fully automatic building of procedural and randomized 3d environments for 3d games. Mostly for top-down games like TPP adventure games or strategies etc
+Its best feature is fully automatic building of procedural and randomized 3d environments for 3d games. Mostly for top-down games like TPP adventure games or strategies etc. Below you can see auto-generated level plan that is filled with meshes in next step (next screen) to create final game level.
 
 <img width="959" alt="20" src="https://github.com/zbigniew54/Gamedo/assets/132487185/4c7a91aa-7bb5-44dc-88d9-1f3b66d2bd1d">
+
 _Level plan with fields: room (yellow color), corridor (orange), roof (blue), hole (brown) _
 
 ![21](https://github.com/zbigniew54/Gamedo/assets/132487185/1ef4c188-2020-407e-b822-b2862bdda2aa)
@@ -33,7 +36,9 @@ _You could use the same floor tile anywhere but to create nice looking corridors
 User can create levels by manually placing fields or "Dungeon" tool can be used to automatically generate level consisting of rooms connected with corridors. 
 
 <img width="959" alt="010a" src="https://github.com/zbigniew54/Gamedo/assets/132487185/0057f1dc-6299-463e-9f0b-a2013e9d9c6d">
+
 _"Dungeon" tool creates random levels. User only have to tweak parameters like level size, number of room, width of corridors etc_
+
 
 <img width="960" alt="010b" src="https://github.com/zbigniew54/Gamedo/assets/132487185/cbf1d76c-0a23-4b65-9d68-570596060dc8">
 
@@ -42,6 +47,7 @@ _Level with fields filled with modules_
 ![23](https://github.com/zbigniew54/Gamedo/assets/132487185/fca87246-72be-46f3-92b5-4a0fec93d3fc)
 _You can edit any object after it is placed in the scene_
 
+# Physically Based Rendering (PBR)
 ![45](https://github.com/zbigniew54/Gamedo/assets/132487185/631e3e8f-cae1-4d81-b0d2-da613ca71b1c)
 _Modern shaders implementing PBR (Physically Based Rendering)_
 
@@ -52,6 +58,11 @@ _PBR makes metallic surfaces look realsitic_
 _HDR rendering with tone mapping and selective bloom_
 
 <img width="958" alt="27" src="https://github.com/zbigniew54/Gamedo/assets/132487185/83fc8421-87c7-4b53-a49d-cc6bd3f4c946">
+
+# Future work
+Procedural flying cities :)
+
+![31](https://github.com/zbigniew54/Gamedo/assets/132487185/a7b04b3b-9f20-4719-86b5-9862036c3a45)
 
 _Module manager. Here you can assign meshes as floor, wall, etc modules and decide whether should they apperar in room, corridor or other category fields and how frequent should each module be used._
 
