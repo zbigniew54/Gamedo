@@ -53,14 +53,14 @@ _You can edit any object after it is placed in the scene_
 _Modern shaders implementing PBR (Physically Based Rendering)_
 
 ![44](https://github.com/zbigniew54/Gamedo/assets/132487185/6a88bb4e-9487-4167-88d3-640b8d604007)
-_PBR makes metallic surfaces look realsitic_
+_PBR makes metallic surfaces look realistic_
 
 ![42](https://github.com/zbigniew54/Gamedo/assets/132487185/5bc8c512-f16b-415b-ba46-817fd324dd3e)
 _HDR rendering with tone mapping and selective bloom_
 
 <img width="960" alt="004" src="https://github.com/zbigniew54/Gamedo/assets/132487185/c7235b5e-fc04-4179-9214-c66a51a503a9">
 
-_Material manager allows you to edit various parameters of shaders used to render meshes. Apart from standard PBR materials there are other available to render realistic water, glass, transparent surfaces and particles._
+_Material manager allows you to edit various parameters of shaders used to render meshes. Apart from standard PBR materials there are others available to render realistic water, glass, transparent surfaces and particles._
 
 # Future work
 Procedural flying cities :)
