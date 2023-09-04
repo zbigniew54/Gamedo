@@ -1,5 +1,6 @@
 # Gamedo
 This is largest JavaScript project I have been working on. I started it in march 2021. It is a 3d game level editor written in JavaScript. Is uses WebGL to display 3d graphics with GPU acceleration in web browser. It is made with [THREE.js](https://threejs.org) with no other dependecies. The interface is in pure DOM (I would probably used React today:)). The server side is written in PHP and uses MySQL database.
+
 ![002b](https://github.com/zbigniew54/Gamedo/assets/132487185/01511243-1724-4419-996b-92fd76674f98)
 
 
@@ -11,7 +12,7 @@ Its best feature is fully automatic building of procedural and randomized 3d env
 
 <img width="959" alt="20" src="https://github.com/zbigniew54/Gamedo/assets/132487185/4c7a91aa-7bb5-44dc-88d9-1f3b66d2bd1d">
 
-_Level plan with fields: room (yellow color), corridor (orange), roof (blue), hole (brown) _
+_Level plan with fields: room (yellow color), corridor (orange), roof (blue), hole (brown)_
 
 ![21](https://github.com/zbigniew54/Gamedo/assets/132487185/1ef4c188-2020-407e-b822-b2862bdda2aa)
 _Build level_
